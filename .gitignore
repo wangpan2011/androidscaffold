@@ -1,0 +1,15 @@
+*/.classpath
+*/.project
+.project
+*/bin/
+*/gen/
+bin/
+gen/
+proguard/
+*/proguard/
+*/project.properties
+*/build.properties
+*/.settings
+*/src/android-logger.properties
+.gitignore
+.metadata/
