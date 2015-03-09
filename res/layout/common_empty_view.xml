@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent" >
+
+    <ProgressBar
+        android:id="@+id/common_empty_view_loading_pb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="visible" />
+
+    <LinearLayout
+        android:id="@+id/common_empty_view_noticeview"
+        style="@style/CommonEmptyViewStyle"
+        android:clickable="true"
+        android:visibility="gone" >
+
+        <ImageView
+            android:id="@+id/common_empty_view_imageview"
+            style="@style/CommonEmptyViewImageViewStyle"
+            android:contentDescription="@string/app_name" />
+
+        <TextView
+            android:id="@+id/common_empty_view_top_tv"
+            style="@style/CommonEmptyViewTopTextViewStyle" />
+
+        <TextView
+            android:id="@+id/common_empty_view_bottom_tv"
+            style="@style/CommonEmptyViewBottomTextViewStyle" />
+
+    </LinearLayout>
+
+</RelativeLayout>
